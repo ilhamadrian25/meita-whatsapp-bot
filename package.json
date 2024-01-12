@@ -1,0 +1,19 @@
+{
+  "name": "meita-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile/index",
+  "scripts": {
+    "start": "tsc && node compile/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
